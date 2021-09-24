@@ -1626,4 +1626,11 @@ body.offcanvas .colorlib-nav-toggle {
     bottom: 0;
     left: auto;
   }
+  #colorlib-hero .flexslider .slider-text > .slider-text-inner {
+    padding: 0em;
+  }
+
+  video.hero-video {
+    height: 90vh;
+  }
 }
