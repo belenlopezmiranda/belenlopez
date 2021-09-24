@@ -558,7 +558,7 @@ body.offcanvas .colorlib-nav-toggle {
 }
 @media screen and (max-width: 768px) {
   .colorlib-heading {
-    margin-bottom: 1em;
+    margin-bottom: 2em;
   }
 }
 
@@ -1515,7 +1515,7 @@ body.offcanvas .colorlib-nav-toggle {
 
 @media screen and (max-width: 767px) {
   #colorlib-hero .flexslider .slides li {
-    height: 100vh;
+    height: 90vh;
   }
 
   .web-img,
@@ -1619,10 +1619,9 @@ body.offcanvas .colorlib-nav-toggle {
   }
 
   #colorlib-hero .flexslider .slider-text {
-    min-height: 530px;
     width: 100vw;
   }
   #colorlib-hero .flexslider .slider-text > .slider-text-inner .desc {
-    bottom: 0px;
+    bottom: 10%;
   }
 }
