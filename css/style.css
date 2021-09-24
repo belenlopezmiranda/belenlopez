@@ -489,6 +489,7 @@ body.offcanvas #colorlib-aside {
 body.offcanvas #colorlib-main,
 body.offcanvas .colorlib-nav-toggle {
   top: 0;
+  top: 1em;
   -moz-transform: translateX(270px);
   -webkit-transform: translateX(270px);
   -ms-transform: translateX(270px);
@@ -527,8 +528,8 @@ body.offcanvas .colorlib-nav-toggle {
   .colorlib-web,
   .colorlib-services,
   .colorlib-contact {
-    padding-top: 5em;
-    padding-bottom: 8em;
+    padding-top: 0em;
+    margin-bottom: 3em;
   }
 }
 
@@ -681,7 +682,7 @@ body.offcanvas .colorlib-nav-toggle {
 }
 @media screen and (max-width: 768px) {
   .blog-entry {
-    margin-bottom: 3em;
+    margin-bottom: 2em;
   }
 }
 .blog-entry .blog-img {
@@ -1321,7 +1322,7 @@ body.offcanvas .colorlib-nav-toggle {
   display: inline;
   width: 30px;
   height: 2px;
-  color: #000;
+  color: white;
   font: bold 14px/0.4 Helvetica;
   text-transform: uppercase;
   text-indent: -55px;
@@ -1398,7 +1399,8 @@ body.offcanvas .colorlib-nav-toggle {
 
 .colorlib-nav-toggle {
   position: fixed;
-  left: -4px;
+  /* left: -4px; */
+  right: 30px;
   top: 0px;
   z-index: 9999;
   cursor: pointer;
@@ -1413,6 +1415,7 @@ body.offcanvas .colorlib-nav-toggle {
   .colorlib-nav-toggle {
     opacity: 1;
     visibility: visible;
+    top: 1em;
   }
 }
 
@@ -1498,6 +1501,7 @@ body.offcanvas .colorlib-nav-toggle {
   letter-spacing: 0.85px;
 }
 
+.branding-desc p:last-child,
 .web-desc p:last-child,
 .container-info p:last-child {
   margin-bottom: 0;
@@ -1505,4 +1509,119 @@ body.offcanvas .colorlib-nav-toggle {
 
 .carousel {
   width: 85% !important;
+}
+
+/* version movil */
+
+@media screen and (max-width: 767px) {
+  #colorlib-hero .flexslider .slides li {
+    height: 100vh;
+  }
+
+  .web-img,
+  .branding-img,
+  .carousel {
+    width: 100% !important;
+  }
+
+  .about-img {
+    height: 450px;
+  }
+
+  .w100mobile {
+    padding: 0 !important;
+    margin-bottom: 2em;
+  }
+
+  .web-desc,
+  .branding-desc,
+  .about-desc {
+    padding: 1em;
+    padding-left: 0;
+    padding-bottom: 0;
+  }
+
+  #get-in-touch {
+    padding: 4em 1em;
+    height: auto;
+    padding-bottom: 3em;
+  }
+
+  .web-img,
+  .about-img {
+    margin-bottom: 1em;
+  }
+
+  .colorlib-web .container-info,
+  .colorlib-branding .container-info {
+    padding: 3em 2em;
+  }
+  #colorlib-main section {
+    padding-bottom: 0em;
+  }
+
+  #colorlib-page {
+    padding-top: 5em;
+  }
+  .colorlib-contact {
+    margin-bottom: 0em;
+  }
+  .colorlib-contact {
+    padding-bottom: 3em;
+  }
+  .colorlib-blog {
+    padding-top: 0em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .colorlib-web {
+    padding-top: 0em;
+  }
+
+  .colorlib-web {
+    padding-bottom: 3em;
+  }
+
+  .colorlib-branding:nth-child(1) {
+    margin-bottom: 0;
+    padding-bottom: 3em;
+  }
+  .colorlib-branding:nth-child(2) {
+    padding-top: 0em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .colorlib-work {
+    padding-top: 0em;
+    margin-bottom: 0;
+    padding-bottom: 2em;
+  }
+
+  .colorlib-web:nth-child(1) {
+    padding-bottom: 0;
+  }
+
+  .rediseno {
+  }
+
+  .colorlib-web.rediseno {
+    height: 100vh;
+    padding-bottom: 2em;
+    padding-top: 2em;
+  }
+
+  .colorlib-about {
+    padding-top: 0em;
+    padding-bottom: 3em;
+    margin-bottom: 0em;
+  }
+
+  #colorlib-hero .flexslider .slider-text {
+    min-height: 530px;
+    width: 100vw;
+  }
+  #colorlib-hero .flexslider .slider-text > .slider-text-inner .desc {
+    bottom: 0px;
+  }
 }
