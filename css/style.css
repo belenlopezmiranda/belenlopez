@@ -1542,6 +1542,12 @@ body.offcanvas .colorlib-nav-toggle {
     padding-bottom: 0;
   }
 
+  .rediseno {
+    padding: 2rem;
+    padding-top: 0;
+    padding-bottom: 3rem;
+  }
+
   #get-in-touch {
     padding: 4em 1em;
     height: auto;
@@ -1581,7 +1587,7 @@ body.offcanvas .colorlib-nav-toggle {
   }
 
   .colorlib-web {
-    padding-bottom: 3em;
+    padding-bottom: 2em !important;
   }
 
   .colorlib-branding:nth-child(1) {
@@ -1607,9 +1613,10 @@ body.offcanvas .colorlib-nav-toggle {
   }
 
   .colorlib-web.rediseno {
-    height: 100vh;
-    padding-bottom: 2em;
-    padding-top: 2em;
+    padding-bottom: 0em;
+    padding-top: 0em;
+    background-color: transparent;
+    height: auto;
   }
 
   .colorlib-about {
@@ -1632,5 +1639,15 @@ body.offcanvas .colorlib-nav-toggle {
 
   video.hero-video {
     height: 90vh;
+  }
+
+  .colorlib-web {
+    margin-bottom: 2em;
+  }
+
+  .packcompleto {
+    padding: 1em;
+    padding-right: 0;
+    padding-bottom: 2em;
   }
 }
