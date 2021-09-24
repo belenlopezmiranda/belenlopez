@@ -393,7 +393,7 @@ figure figcaption {
 }
 @media screen and (max-width: 768px) {
   #colorlib-hero .flexslider .slider-text > .slider-text-inner {
-    text-align: center;
+    /* text-align: center; */
   }
 }
 #colorlib-hero .flexslider .slider-text > .slider-text-inner h1,
@@ -1622,6 +1622,8 @@ body.offcanvas .colorlib-nav-toggle {
     width: 100vw;
   }
   #colorlib-hero .flexslider .slider-text > .slider-text-inner .desc {
-    bottom: 10%;
+    position: relative;
+    bottom: 0;
+    left: auto;
   }
 }
