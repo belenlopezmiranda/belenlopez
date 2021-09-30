@@ -1827,4 +1827,13 @@ body.offcanvas .colorlib-nav-toggle {
   .col-md-6.w100mobile {
     padding-right: 0;
   }
+
+  video,
+  #colorlib-hero .flexslider .slides li {
+    height: 100vh;
+  }
+  #colorlib-hero .flexslider .slider-text > .slider-text-inner {
+    /* text-align: center; */
+    height: 100vh;
+  }
 }
