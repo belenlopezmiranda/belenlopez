@@ -1665,6 +1665,7 @@ body.offcanvas .colorlib-nav-toggle {
 
   #colorlib-hero .flexslider .slider-text {
     width: 100vw;
+    height: 90vh;
   }
   #colorlib-hero .flexslider .slider-text > .slider-text-inner .desc {
     position: relative;
@@ -1676,7 +1677,7 @@ body.offcanvas .colorlib-nav-toggle {
   }
 
   video.hero-video {
-    height: 90vh;
+    height: 90vh !important;
   }
 
   .colorlib-web {
