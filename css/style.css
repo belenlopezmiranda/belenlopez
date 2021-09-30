@@ -1694,9 +1694,44 @@ body.offcanvas .colorlib-nav-toggle {
   #colorlib-page.inicio {
     padding-top: 0em;
   }
+}
 
-  /* #colorlib-page.inicio .colorlib-nav-toggle i::before,
-  .colorlib-nav-toggle i::after {
-    background: white;
-  } */
+/* Tablets
+  en
+  horizonal
+  y
+  escritorios
+  normales */
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .col-md-10 {
+    width: 90%;
+  }
+
+  .col-md-offset-1 {
+    margin-left: 2.33333% !important;
+  }
+
+  .web-img,
+  .branding-img {
+    width: 95%;
+    height: 575px;
+  }
+
+  .colorlib-web .container-info,
+  .colorlib-branding .container-info {
+    padding: 4em 4em;
+  }
+
+  .colorlib-web.rediseno {
+    padding: 4em;
+    height: auto;
+  }
+
+  #get-in-touch {
+    padding: 4em 2em;
+    height: auto;
+    display: flex;
+    align-items: center;
+  }
 }
