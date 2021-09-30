@@ -1734,4 +1734,8 @@ body.offcanvas .colorlib-nav-toggle {
     display: flex;
     align-items: center;
   }
+
+  .carousel {
+    width: 95% !important;
+  }
 }
