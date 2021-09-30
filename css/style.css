@@ -1739,3 +1739,11 @@ body.offcanvas .colorlib-nav-toggle {
     width: 95% !important;
   }
 }
+
+/*Tablet*/
+/*Portrait*/
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation: portrait) {
+  #colorlib-hero .flexslider .slider-text > .slider-text-inner .desc {
+    position: relative;
+  }
+}
