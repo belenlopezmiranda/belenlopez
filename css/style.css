@@ -1389,7 +1389,7 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .colorlib-nav-toggle.active i::after {
-  bottom: 0;
+  bottom: -1.5px;
   -webkit-transform: rotateZ(-45deg);
   -moz-transform: rotateZ(-45deg);
   -ms-transform: rotateZ(-45deg);
@@ -1694,4 +1694,9 @@ body.offcanvas .colorlib-nav-toggle {
   #colorlib-page.inicio {
     padding-top: 0em;
   }
+
+  /* #colorlib-page.inicio .colorlib-nav-toggle i::before,
+  .colorlib-nav-toggle i::after {
+    background: white;
+  } */
 }
