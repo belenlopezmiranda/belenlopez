@@ -1515,7 +1515,7 @@ body.offcanvas .colorlib-nav-toggle {
 
 @media screen and (max-width: 767px) {
   #colorlib-hero .flexslider .slides li {
-    height: 90vh;
+    height: 100vh;
   }
 
   .web-img,
@@ -1584,7 +1584,7 @@ body.offcanvas .colorlib-nav-toggle {
   }
 
   #colorlib-page {
-    padding-top: 4em;
+    padding-top: 5em;
   }
   .colorlib-contact {
     margin-bottom: 0em;
@@ -1665,7 +1665,7 @@ body.offcanvas .colorlib-nav-toggle {
 
   #colorlib-hero .flexslider .slider-text {
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
   }
   #colorlib-hero .flexslider .slider-text > .slider-text-inner .desc {
     position: relative;
@@ -1677,7 +1677,7 @@ body.offcanvas .colorlib-nav-toggle {
   }
 
   video.hero-video {
-    height: 90vh !important;
+    height: 100vh !important;
   }
 
   .colorlib-web {
@@ -1689,5 +1689,9 @@ body.offcanvas .colorlib-nav-toggle {
     padding-right: 0em;
     padding-bottom: 0em;
     padding-left: 1em;
+  }
+
+  #colorlib-page.inicio {
+    padding-top: 0em;
   }
 }
