@@ -1415,7 +1415,7 @@ body.offcanvas .colorlib-nav-toggle {
   .colorlib-nav-toggle {
     opacity: 1;
     visibility: visible;
-    top: 1em;
+    top: 1.5em;
   }
 }
 
@@ -1523,7 +1523,7 @@ body.offcanvas .colorlib-nav-toggle {
   .carousel {
     width: 100% !important;
     height: 450px;
-    padding: 0 1em;
+    /* padding: 0 1em; */
   }
 
   .about-img {
@@ -1532,8 +1532,13 @@ body.offcanvas .colorlib-nav-toggle {
 
   .w100mobile {
     /* padding: 0 !important; */
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     padding-left: 1em !important;
+  }
+
+  .web-desc h3 {
+    line-height: 1.5;
+    margin-bottom: 1em;
   }
 
   .branding-desc,
@@ -1563,7 +1568,7 @@ body.offcanvas .colorlib-nav-toggle {
 
   .web-img,
   .about-img {
-    margin-bottom: 1em;
+    margin-bottom: 2em;
   }
 
   .colorlib-web .container-info,
@@ -1575,7 +1580,7 @@ body.offcanvas .colorlib-nav-toggle {
   }
 
   #colorlib-page {
-    padding-top: 5em;
+    padding-top: 4em;
   }
   .colorlib-contact {
     margin-bottom: 0em;
