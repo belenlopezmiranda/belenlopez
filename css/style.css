@@ -1560,6 +1560,10 @@ body.offcanvas .colorlib-nav-toggle {
     padding-left: 0em;
   }
 
+  .web-desc.medida {
+    padding-right: 1em !important;
+  }
+
   #get-in-touch {
     padding: 4em 1em;
     height: auto;
