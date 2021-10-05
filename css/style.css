@@ -1817,10 +1817,20 @@ body.offcanvas .colorlib-nav-toggle {
     margin-left: 0 !important;
   }
 
-  #colorlib-page {
+  /* #colorlib-page {
     padding-top: 5em;
     padding: 5em 1em;
     padding-bottom: 0;
+  } */
+
+  #colorlib-main {
+    padding-top: 5em;
+  }
+
+  .colorlib-work,
+  .colorlib-contact,
+  .colorlib-about {
+    padding-bottom: 4em;
   }
 
   .web-img,
@@ -1831,12 +1841,13 @@ body.offcanvas .colorlib-nav-toggle {
   }
 
   #colorlib-main section {
-    padding-bottom: 4em;
+    padding-bottom: 9em;
   }
 
   .colorlib-web {
-    padding-top: 4em;
-    margin-bottom: 0em;
+    padding-top: 2em;
+    margin-bottom: 1em;
+    padding-bottom: 0;
     /* padding-left: 2em;
     padding-right: 2em; */
   }
@@ -1851,10 +1862,11 @@ body.offcanvas .colorlib-nav-toggle {
   }
 
   .colorlib-web.rediseno {
-    padding: 4em;
-    padding-left: 2em;
-    padding-right: 2em;
-    height: auto;
+    /* padding: 8em;
+    padding-left: 0;
+    padding-right: 0;
+    height: auto; */
+    margin: 0;
   }
 
   .col-md-offset-1 {
@@ -1869,13 +1881,13 @@ body.offcanvas .colorlib-nav-toggle {
     padding: 0;
   }
 
-  .web-img {
+  /* .web-img {
     width: 100%;
     height: 575px;
     margin-bottom: 2em;
     margin-top: 3em !important;
     padding-left: 0 !important;
-  }
+  } */
 
   .col-md-10.col-md-offset-1.container-info {
     width: 100%;
@@ -1896,5 +1908,13 @@ body.offcanvas .colorlib-nav-toggle {
   #colorlib-hero .flexslider .slider-text > .slider-text-inner {
     /* text-align: center; */
     height: 100vh;
+  }
+  /* 
+  .pack-completo {
+    padding-bottom: 4em;
+  } */
+
+  .complet {
+    padding-top: 4em !important;
   }
 }
