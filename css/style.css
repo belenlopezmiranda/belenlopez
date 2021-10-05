@@ -112,25 +112,24 @@ figure figcaption {
 }
 
 #colorlib-aside {
-  padding-top: 3em;
-  padding-bottom: 40px;
-  padding-left: 2em;
+  padding-left: 3.5em;
   padding-right: 0em;
   width: 10%;
   position: fixed;
   bottom: 0;
   top: 0;
-  left: 0;
+  right: 0;
   overflow-y: scroll;
   z-index: 1001;
   background: #fff;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  text-transform: lowercase;
 }
 
 #colorlib-main-menu {
-  bottom: 3.3em;
+  bottom: 2em;
   position: absolute;
 }
 
@@ -189,13 +188,18 @@ figure figcaption {
   }
 }
 #colorlib-aside #colorlib-main-menu ul li {
-  margin: 0 0 5px 0;
   padding: 0;
-  list-style: none;
+  list-style: decimal-leading-zero;
   font-size: 12px;
   font-weight: 500;
-  text-transform: uppercase;
   letter-spacing: 1px;
+}
+::marker {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.colorlib-active::marker {
+  color: #202020;
 }
 #colorlib-aside #colorlib-main-menu ul li a {
   color: rgba(0, 0, 0, 0.4);
@@ -301,7 +305,7 @@ figure figcaption {
 }
 
 #colorlib-main section {
-  padding-bottom: 9em;
+  padding-bottom: 5em;
   /* padding-left: 20em;
   padding-right: 20em; */
 }
