@@ -2102,17 +2102,49 @@ body.offcanvas .colorlib-nav-toggle {
   }
 
   .col-md-offset-2 {
-    margin-left: 2.33333% !important;
+    margin-left: 0% !important;
   }
 
   .col-md-8 {
     width: 90%;
+  }
+
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .col-md-offset-3 {
+    margin-left: 0%;
+  }
+
+  p.col-md-6.col-md-offset-3 {
+    margin-left: 25%;
   }
 }
 
 /*Tablet*/
 /*Portrait*/
 @media (min-width: 576px) and (max-width: 991.98px) and (orientation: portrait) {
+  .col-md-offset-2 {
+    margin-left: auto !important;
+  }
+
+  .col-md-8 {
+    width: auto;
+  }
+
+  p.col-md-6.col-md-offset-3 {
+    margin-left: 0;
+  }
+
+  .row {
+    display: block;
+    /* align-items: center; */
+    /* justify-content: center; */
+  }
+
   #get-in-touch {
     padding-top: 6em;
     padding-bottom: 6em;
