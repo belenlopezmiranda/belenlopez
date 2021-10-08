@@ -2085,6 +2085,8 @@ body.offcanvas .colorlib-nav-toggle {
   }
 
   #get-in-touch {
+    padding-top: 5em;
+    padding-bottom: 5em;
     /* padding: 4em 2em;
     height: auto;
     display: flex;
@@ -2099,6 +2101,19 @@ body.offcanvas .colorlib-nav-toggle {
 /*Tablet*/
 /*Portrait*/
 @media (min-width: 576px) and (max-width: 991.98px) and (orientation: portrait) {
+  .colorlib-nav-toggle {
+    visibility: hidden;
+  }
+
+  .colorlib-web.rediseno {
+    padding-top: 5em !important;
+    padding-bottom: 5em !important;
+  }
+
+  #colorlib-main section:first-child {
+    padding-top: 3em;
+  }
+
   #colorlib-hero .flexslider .slider-text > .slider-text-inner .desc {
     position: relative;
   }
@@ -2221,6 +2236,6 @@ body.offcanvas .colorlib-nav-toggle {
   } */
 
   .complet {
-    padding-top: 4em !important;
+    padding-top: 2em !important;
   }
 }
