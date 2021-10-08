@@ -10,6 +10,15 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Times Now Light";
+  src: url("../fonts/TimesNow-Light/TimesNow-Light.ttf") format("ttf"),
+    url("../fonts/TimesNow-Light/TimesNow-Light.woff") format("woff"),
+    url("../fonts/TimesNow-Light/TimesNow-Light.woff2") format("woff2");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
 /* =======================================================
 *
 * 	Template Style 
@@ -29,7 +38,7 @@
 }
 
 body {
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 13px;
   line-height: 1.8;
