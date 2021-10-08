@@ -1717,7 +1717,7 @@ body.offcanvas .colorlib-nav-toggle {
 
 .colorlib-nav-toggle {
   position: fixed;
-  left: -4px;
+  /* left: -4px; */
   /* right: 30px; */
   top: 0px;
   z-index: 9999;
@@ -2379,5 +2379,9 @@ body.offcanvas .colorlib-nav-toggle {
 
   .sticky-parent {
     padding-left: 0;
+  }
+
+  .colorlib-blog .row .col-md-8.col-md-offset-2:nth-child(2) {
+    padding: 0;
   }
 }
