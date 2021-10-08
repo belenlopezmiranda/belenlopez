@@ -2085,8 +2085,8 @@ body.offcanvas .colorlib-nav-toggle {
   }
 
   #get-in-touch {
-    padding-top: 6em;
-    padding-bottom: 6em;
+    padding-top: 9em;
+    padding-bottom: 9em;
     /* padding: 4em 2em;
     height: auto;
     display: flex;
@@ -2096,11 +2096,28 @@ body.offcanvas .colorlib-nav-toggle {
   .carousel {
     width: 95% !important;
   }
+
+  #colorlib-main section:first-child {
+    padding-top: 3em;
+  }
+
+  .col-md-offset-2 {
+    margin-left: 2.33333% !important;
+  }
+
+  .col-md-8 {
+    width: 90%;
+  }
 }
 
 /*Tablet*/
 /*Portrait*/
 @media (min-width: 576px) and (max-width: 991.98px) and (orientation: portrait) {
+  #get-in-touch {
+    padding-top: 6em;
+    padding-bottom: 6em;
+  }
+
   .colorlib-nav-toggle {
     visibility: hidden;
   }
