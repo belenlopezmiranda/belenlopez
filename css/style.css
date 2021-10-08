@@ -2138,7 +2138,6 @@ body.offcanvas .colorlib-nav-toggle {
     padding: 0 !important;
   }
 
-  .colorlib-blog,
   .colorlib-work,
   .colorlib-about,
   .colorlib-branding,
@@ -2152,9 +2151,13 @@ body.offcanvas .colorlib-nav-toggle {
     padding-bottom: 4em;
   }
 
+  .colorlib-blog,
   .colorlib-contact {
     padding-bottom: 0em;
     margin-bottom: 0em;
+  }
+  .colorlib-blog {
+    margin-bottom: -2em;
   }
 
   .colorlib-about {
@@ -2194,6 +2197,7 @@ body.offcanvas .colorlib-nav-toggle {
   }
   .colorlib-web .container-info {
     padding: 4em 4em;
+    margin-top: 3em;
     margin-left: 0 !important;
   }
 
@@ -2203,6 +2207,10 @@ body.offcanvas .colorlib-nav-toggle {
     padding-right: 0;
     height: auto; */
     margin: 0;
+  }
+
+  .branding-desc {
+    margin-left: -15px !important;
   }
 
   .col-md-offset-1 {
