@@ -17,6 +17,13 @@
     url("../fonts/TimesNow-Light/TimesNow-Light.woff2") format("woff2");
 }
 
+@font-face {
+  font-family: "Recoleta";
+  src: url("../fonts/Recoleta-Bold/Recoleta-Bold.ttf") format("ttf"),
+    url("../fonts/Recoleta-Bold/Recoleta-Bold.woff") format("woff"),
+    url("../fonts/Recoleta-Bold/Recoleta-Bold.woff2") format("woff2");
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 /* =======================================================
@@ -279,14 +286,14 @@ figure figcaption {
 #colorlib-aside #colorlib-main-menu ul li.colorlib-active a {
   color: #000;
 }
-#colorlib-aside #colorlib-main-menu ul li.colorlib-active a:after {
+/* #colorlib-aside #colorlib-main-menu ul li.colorlib-active a:after {
   visibility: visible;
   -webkit-transform: scaleX(1);
   -moz-transform: scaleX(1);
   -ms-transform: scaleX(1);
   -o-transform: scaleX(1);
   transform: scaleX(1);
-}
+} */
 #colorlib-aside .colorlib-footer {
   position: absolute;
   bottom: 40px;
@@ -487,6 +494,8 @@ header.header .header-logo {
   width: 20%;
   text-align: center;
   transition: filter 0.25s;
+  font-family: "Recoleta";
+  text-transform: uppercase;
 }
 
 .flex-center,
@@ -517,10 +526,10 @@ header.header .header-logo .logo-sun-sm {
   animation: rotation 12s linear infinite;
 }
 
-.logo-sun-sm {
-  width: 2rem;
-  height: 2rem;
-  background: url(/images/lo);
+.logo-belen-sm {
+  width: 100px;
+  height: 100px;
+  background: url(../images/logo-belen-sm.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -805,8 +814,7 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .colorlib-work,
-.colorlib-contact,
-.colorlib-about {
+.colorlib-contact {
   padding-bottom: 9em;
 }
 
@@ -932,6 +940,23 @@ body.offcanvas .colorlib-nav-toggle {
   line-height: 1.3;
 }
 
+.about-desc p:last-child {
+  margin-bottom: 0;
+}
+.about-desc p:nth-child(1),
+.about-desc p:nth-child(3),
+.about-desc p:nth-child(4) {
+  color: var(--corp);
+}
+
+.about-desc p:nth-child(2) {
+  letter-spacing: 1.5px;
+}
+@media screen and (min-width: 900px) {
+  .about-desc {
+    padding-right: 6em;
+  }
+}
 .fancy-collapse-panel .panel-default > .panel-heading {
   padding: 0;
 }
@@ -1451,6 +1476,7 @@ body.offcanvas .colorlib-nav-toggle {
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
   outline: none !important;
+  opacity: 0.8;
 }
 
 .btn-primary {
@@ -1476,98 +1502,6 @@ body.offcanvas .colorlib-nav-toggle {
 .btn-primary.btn-outline:focus,
 .btn-primary.btn-outline:active {
   background: var(--brand-secundary);
-  color: #fff;
-}
-
-.btn-success {
-  background: #5cb85c;
-  color: #fff;
-  border: 2px solid #5cb85c;
-}
-.btn-success:hover,
-.btn-success:focus,
-.btn-success:active {
-  background: #4cae4c !important;
-  border-color: #4cae4c !important;
-}
-.btn-success.btn-outline {
-  background: transparent;
-  color: #5cb85c;
-  border: 2px solid #5cb85c;
-}
-.btn-success.btn-outline:hover,
-.btn-success.btn-outline:focus,
-.btn-success.btn-outline:active {
-  background: #5cb85c;
-  color: #fff;
-}
-
-.btn-info {
-  background: #5bc0de;
-  color: #fff;
-  border: 2px solid #5bc0de;
-}
-.btn-info:hover,
-.btn-info:focus,
-.btn-info:active {
-  background: #46b8da !important;
-  border-color: #46b8da !important;
-}
-.btn-info.btn-outline {
-  background: transparent;
-  color: #5bc0de;
-  border: 2px solid #5bc0de;
-}
-.btn-info.btn-outline:hover,
-.btn-info.btn-outline:focus,
-.btn-info.btn-outline:active {
-  background: #5bc0de;
-  color: #fff;
-}
-
-.btn-warning {
-  background: #f0ad4e;
-  color: #fff;
-  border: 2px solid #f0ad4e;
-}
-.btn-warning:hover,
-.btn-warning:focus,
-.btn-warning:active {
-  background: #eea236 !important;
-  border-color: #eea236 !important;
-}
-.btn-warning.btn-outline {
-  background: transparent;
-  color: #f0ad4e;
-  border: 2px solid #f0ad4e;
-}
-.btn-warning.btn-outline:hover,
-.btn-warning.btn-outline:focus,
-.btn-warning.btn-outline:active {
-  background: #f0ad4e;
-  color: #fff;
-}
-
-.btn-danger {
-  background: #d9534f;
-  color: #fff;
-  border: 2px solid #d9534f;
-}
-.btn-danger:hover,
-.btn-danger:focus,
-.btn-danger:active {
-  background: #d43f3a !important;
-  border-color: #d43f3a !important;
-}
-.btn-danger.btn-outline {
-  background: transparent;
-  color: #d9534f;
-  border: 2px solid #d9534f;
-}
-.btn-danger.btn-outline:hover,
-.btn-danger.btn-outline:focus,
-.btn-danger.btn-outline:active {
-  background: #d9534f;
   color: #fff;
 }
 
@@ -1799,6 +1733,11 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 /* pagina de branding y web */
+.colorlib-about .container-info {
+  background-color: #e4d8cb;
+  padding: 4em 9em;
+  margin-top: 9em;
+}
 .colorlib-web .container-info,
 .colorlib-branding .container-info {
   background-color: #e4d8cb;
@@ -1812,6 +1751,12 @@ body.offcanvas .colorlib-nav-toggle {
   margin-left: -1em;
 }
 
+.colorlib-about .container-info p {
+  margin-bottom: 0.5px;
+  text-align: center;
+}
+
+.colorlib-about .container-info span,
 .colorlib-web .container-info span,
 .colorlib-branding .container-info span {
   text-transform: uppercase;
@@ -1967,7 +1912,7 @@ body.offcanvas .colorlib-nav-toggle {
   }
 
   .colorlib-nav-toggle {
-    visibility: hidden;
+    /* visibility: hidden; */
   }
 
   .colorlib-web.rediseno {
@@ -1977,6 +1922,11 @@ body.offcanvas .colorlib-nav-toggle {
 
   #colorlib-main section:first-child {
     padding-top: 5em;
+  }
+
+  .colorlib-about .container-info {
+    padding: 4em 3em;
+    margin-top: 5em;
   }
 
   #colorlib-hero .flexslider .slider-text > .slider-text-inner .desc {
@@ -2218,6 +2168,12 @@ body.offcanvas .colorlib-nav-toggle {
   }
   #colorlib-main section {
     padding-bottom: 2em !important;
+  }
+
+  .colorlib-about .container-info {
+    /* padding: 4em 3em; */
+    padding: 2em;
+    margin-top: 2em;
   }
 
   #colorlib-main {
